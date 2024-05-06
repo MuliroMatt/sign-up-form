@@ -10,11 +10,8 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -37,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- [My Solution](https://your-solution-url.com)
+- [My Solution](https://muliromatt.github.io/sign-up-form/)
 
 ## My process
 
