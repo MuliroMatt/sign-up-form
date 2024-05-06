@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <!-- displays site properly based on user's device -->
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="./assets/images/favicon-32x32.png" />
+      <link rel="stylesheet" href="css/style.css" />
+      <title>
+         Frontend Mentor | Newsletter sign-up form with success message
+      </title>
+   </head>
+   <body>
+      <main class="content">
+         <article class="login-card">
+            <section class="login-card__content">
+               <h1 class="login-card__content__title">Stay updated!</h1>
+               <p class="login-card__content__quote">
+                  Join 60,000+ product managers receiving monthly updates on:
+               </p>
+               <ul class="login-card__content__list">
+                  <li class="login-card__content__list__item">
+                     Product discovery and building what matters
+                  </li>
+                  <li class="login-card__content__list__item">
+                     Measuring to ensure updates are a success
+                  </li>
+                  <li class="login-card__content__list__item">
+                     And much more!
+                  </li>
+               </ul>
+               <form class="login-card__content__form" novalidate>
+                  <div class="login-card__content__form__labels">
+                     <label
+                        for="email"
+                        class="login-card__content__form__labels__label"
+                        >Email address</label
+                     >
+                     <span class="invalid-email"></span>
+                  </div>
+                  <input
+                     type="email"
+                     name="email"
+                     class="login-card__content__form__input"
+                     placeholder="email@company.com"
+                     required />
+                  <button type="submit" class="btn">
+                     Subscribe to monthly newsletter
+                  </button>
+               </form>
+            </section>
+            <picture class="login-card__img">
+              <source srcset="assets/images/illustration-sign-up-mobile.svg" media="(max-width: 768px)">
+               <img
+                  src="assets/images/illustration-sign-up-desktop.svg"
+                  alt="" />
+            </picture>
+
+            <!-- Sign-up form start -->
+         </article>
+         <article class="success hidden">
+            <img
+               class="success__icon"
+               src="assets/images/icon-success.svg"
+               alt="success icon" />
+            <h1 class="success__title">Thanks for subscribing!</h1>
+            <p class="success__text">
+               A confirmation email has been sent to
+               <span class="email"></span>. Please open it and click the button
+               inside to confirm your subscription.
+            </p>
+            <button class="btn dismiss-btn">Dismiss message</button>
+         </article>
+      </main>
+      <script src="script.js"></script>
+   </body>
+</html>
