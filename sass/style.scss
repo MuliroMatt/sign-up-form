@@ -163,11 +163,11 @@
 }
 
 @media screen and (max-width: 830px) {
-    .login-card{
-        .login-card__content{
-            padding: 20px;
-        }
-    }
+   .login-card {
+      .login-card__content {
+         padding: 20px;
+      }
+   }
 }
 
 @media screen and (max-width: 768px) {
@@ -186,22 +186,38 @@
          }
       }
       .login-card__img {
-        // max-height: 330px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+         // max-height: 330px;
+         overflow: hidden;
+         display: flex;
+         align-items: center;
+         border-bottom-left-radius: 20px;
+         border-bottom-right-radius: 20px;
          img {
             width: 100%;
          }
       }
    }
 }
-@media  screen and (max-width: 375px) {
-    .login-card{
-        .login-card__img{
-            overflow: visible;
-        }
-    }
+
+@media screen and (max-width: 560px) {
+   .success {
+      max-width: none;
+      height: 100vh;
+      border-radius: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 2rem;
+      &__title {
+         font-size: 2.5rem;
+      }
+   }
+}
+
+@media screen and (max-width: 375px) {
+   .login-card {
+      .login-card__img {
+         overflow: visible;
+      }
+   }
 }
